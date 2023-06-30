@@ -1,0 +1,106 @@
+/* #img{*/
+    /* width: 50%; */
+    /* height: 100px; */
+/*}
+.img-small{
+    width: 2200px;
+}
+.paypal{
+    width: 5000px;
+}
+body{
+    background-color: aquamarine;
+} */
+
+/* #img,#img2{
+    width: 200px;
+    float: left;
+    margin-right: 10px; */
+    /* vertical-align: middle; */
+/* }
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+p{ */
+    /* border: solid cadetblue; */
+    /* padding: 10px;
+    text-align: justify; */
+    /* margin-left: 210px; */
+/* }
+.last-p{
+    clear: both;
+} */
+
+/* body{
+    border-top: .3px solid; */
+    /* background-image: url(../img/summer.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: 50%;
+    background-position-y: bottom;*/
+    /* background: #ccc url(../img/summer.jpg)  no-repeat center fixed; */
+    /* background-attachment:fixed; */
+    /* margin: 0; */
+    /* height: 100vh;  */
+    /* background-size: cover; */
+/* }
+p{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    color: #fff;
+} */
+
+img{
+    width: 200px;
+    margin: 13px;
+    cursor: pointer;
+}
+body img:nth-child(1){
+    filter: blur(10px);
+}
+body img:nth-child(1):hover{
+    filter: blur(0px);
+}
+
+body img:nth-child(2):hover{
+    filter:brightness(1.2)
+}
+body img:nth-child(3):hover{
+    filter:contrast(2)
+}
+body img:nth-child(4):hover{
+    filter:grayscale(1)
+}
+body img:nth-child(5):hover{
+    filter:hue-rotate(90deg)
+}
+body img:nth-child(6):hover{
+    filter:invert(1)
+}
+body img:nth-child(7):hover{
+    filter:opacity(.5)
+}
+body img:nth-child(8):hover{
+    filter:saturate(.5)
+}
+
+body img:nth-child(9):hover{
+    /* box-shadow: 5px 5px 10px black; */
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+body img:nth-child(10):hover{
+    transform: translate(100px,100px);
+}
+body img:nth-child(11){
+    transform-origin: top left;
+}
+body img:nth-child(11):hover{
+    transform: rotate(-45deg);
+}
+/* body img:nth-child(12){
+    transform: scale(0.2);
+} */
+body img:nth-child(12):hover{
+    transform: skew(60deg,30deg);
+}

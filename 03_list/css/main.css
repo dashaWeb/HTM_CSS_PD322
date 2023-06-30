@@ -1,0 +1,53 @@
+/* .list{
+    background-color: rgb(206, 103, 65);
+    color:rgb(255, 255, 255)
+}
+ul.list{
+    list-style-type:square;
+    list-style-image: url(../img/smile.jpg);
+}
+
+ol.list{
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+}
+dl{
+    background-color: mediumorchid;
+    color:#fff;
+    padding: 10px;
+    border:double 5px rgb(105, 54, 118);
+}
+dt{
+    margin-top: 20px;
+} */
+
+
+ul.list{
+    list-style-type: none;
+    display: flex;
+}
+
+ul.list>li{
+    background-color: blueviolet;
+    color:#fff;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius:5px;
+    text-shadow: 1px 1px 1px #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ul.list ul{
+    padding: 0;
+    background-color: rgb(70, 24, 112);
+    border-radius:5px;
+    display: none;
+}
+ul.list>li:hover ul{
+    display: block;
+}
+ul.list ul li:hover{
+    background-color: rgb(141, 74, 203);;
+}

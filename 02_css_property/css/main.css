@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap'); */
+
+
+@font-face {
+    font-family: 'Kablammo';
+    src: url(../fonts/Kablammo-Regular-VariableFont_MORF.ttf);
+}
+/* @font-face {
+    font-family: 'Kablammo';
+    src: url(../fonts/Kablammo-Regular-VariableFont_MORF.ttf); 
+}*/
+.text-info{
+    color: blueviolet;
+
+}
+
+.example{
+    background-color:rgba(58, 3, 32, 1); /*фоновий колір*/
+    color:#fff; /*колір текту*/
+    /* padding: 15px 50px 75px 150px; внутрішній відступ */
+    /* padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px; */
+    padding: 15px;
+    margin: 50px; /*зовнішній відступ*/
+
+    text-align: justify /*Вирівнювання тексту; left, right,center,justify*/;
+    text-align-last: left;
+    text-transform: none;/*capitalize,uppercase,lowercase;*/
+    /* text-decoration: underline pink solid; overline,line-through; */
+    text-indent: 30px;/*відступ першого рядка*/
+
+    font-size: 1.1em; /*розмір тексту*/
+    font-style: italic; /*none *//*текст курсивом*/
+    font-weight: 700; /*жирний текст*/
+    /* font-family: 'Kablammo', cursive; */
+
+    line-height: 30px; /* висота рядка, міжрядковий інтервал*/
+    /* word-spacing: 20px;відстань між словами */
+    /* letter-spacing: 5px; відстань між символами */
+
+    /* border: groove rgb(184, 13, 104) 10px;  */
+    border:groove rgb(184, 13, 104) 10px; 
+    border-width: 10px 0px 30px 40px;
+    border-style: solid dotted double groove;
+    /* border-color: red green blue gold; */
+    border-radius: 20px 50px; /* заокруглення кутів*/
+    width: 300px; /*ширина блока*/
+    max-height: 400px; /*висота блока*/
+    /* overflow-y: scroll; */ /*вертикальна прокрутка*/
+    box-shadow: 10px 10px 10px black; /*тінь*/
+    text-shadow: 2px 2px 0px black;
+}
+
