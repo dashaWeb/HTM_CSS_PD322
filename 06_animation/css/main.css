@@ -1,0 +1,41 @@
+
+/* div:hover{
+    background-color: rgb(43, 220, 20);
+    border: inset rgb(43, 220, 20) 10px;
+    border-radius: 0;
+} */
+
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 98, 0);
+    border-radius: 50%;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: circles 5s ease-in-out 10ms infinite alternate;
+    transform: translateX(0);
+    animation-play-state:paused;
+
+}
+div:hover{
+    animation-play-state:running;
+}
+@keyframes circles{
+    0%{
+        background-color: rgb(255, 98, 0);
+        transform: translateX(0%);
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: purple;
+        transform: translateX(740px);
+    }
+}
