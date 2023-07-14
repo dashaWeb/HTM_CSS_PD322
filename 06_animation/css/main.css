@@ -39,3 +39,7 @@ div:hover{
         transform: translateX(740px);
     }
 }
+
+li:hover img{
+    
+}
