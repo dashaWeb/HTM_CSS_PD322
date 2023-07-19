@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lugrasimo', cursive;
+
+}
+header span{
+    color: #d0722e;
+}
+figure{
+    margin: 0;
+}
+section{
+    width: 150px;
+    float: left;
+}
+.img{
+    width: 259px;
+    float: left;
+    margin: 0 10px;
+}
+ul{
+    list-style-image: url(../img/list.png);
+    background-color: #d0722e;
+    margin: 0;  
+    line-height:30px;
+    padding: 80px 0 80px 40px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    display: block;
+}
+.offset{
+    margin-top: 10px;
+}
+main{
+    margin-left: 430px;
+}
+h3{
+    background-color: #d0722e;
+    color: #fff;
+    padding: 10px 5px;
+}
+footer{
+    clear: both;
+    padding: 40px;
+    text-align: center;
+}
